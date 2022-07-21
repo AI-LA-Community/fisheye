@@ -4,6 +4,12 @@ Fisheye is the Climate Change MetaVerse.  Fisheye organizes data related to clim
 
 Please read our [CONTRIBUTING](CONTRIBUTING.md) page and use your imagination a bit.
 
+## Inspiration
+
+Microsoft is putting a lot of energy into [IoT and the MetaVerse](https://www.youtube.com/watch?v=GAkB98ewcjI) for industrial optimization purposes.  We can leverage this same concept to fight climate change. But first we need to get the data into a Climate Change MetaVerse.
+
+[Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning) is one of the most powerful AI techniques available today.  RL can create amazing and novel solutions to problems given the correct [training environment](https://www.vox.com/future-perfect/2019/9/20/20872672/ai-learn-play-hide-and-seek).  Again, by making climate data accessible to virtual environments
+
 ## Basic Use Case
 
 The [U.S. Environmental Protection Agency](https://www.epa.gov/) publishes data on facilities that have violated U.S. policy or laws.  Geo-coordinates are typically provided so the violation can be analyzed in its correct geographical context.  Fisheye provides assets and libraries so a Digital Twin can be dragged and dropped into the 3D engine (Unreal, Unity, ect) of their choice where it will automatically place itself in the correct postion and begin emitting data to the other assets. 
