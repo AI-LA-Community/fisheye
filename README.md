@@ -8,7 +8,9 @@ Please read our [CONTRIBUTING](CONTRIBUTING.md) page and use your imagination a 
 
 Microsoft is putting a lot of energy into [IoT and the MetaVerse](https://www.youtube.com/watch?v=GAkB98ewcjI) for industrial optimization purposes.  We can leverage this same concept to fight climate change. But first we need to get the data into a Climate Change MetaVerse.
 
-[Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning) is one of the most powerful AI techniques available today.  RL can create amazing and novel solutions to problems given the correct [training environment](https://www.vox.com/future-perfect/2019/9/20/20872672/ai-learn-play-hide-and-seek).  Again, by making climate data accessible to virtual environments
+[Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning) is one of the most powerful AI techniques available today.  RL can create amazing and novel solutions to problems given the correct [training environment](https://www.vox.com/future-perfect/2019/9/20/20872672/ai-learn-play-hide-and-seek).  Again, by making climate data accessible to virtual environments we can use these advanced techniques to study climate change.
+
+So let's get on it!!
 
 ## Basic Use Case
 
