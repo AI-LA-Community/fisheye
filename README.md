@@ -2,6 +2,8 @@
 
 Fisheye is the Climate Change MetaVerse.  Fisheye organizes data related to climate action and makes that data available as 3D, real-time assets.
 
+Please read our [CONTRIBUTING](CONTRIBUTING.md) page and use your imagination a bit.
+
 ## Basic Use Case
 
 The [U.S. Environmental Protection Agency](https://www.epa.gov/) publishes data on facilities that have violated U.S. policy or laws.  Geo-coordinates are typically provided so the violation can be analyzed in its correct geographical context.  Fisheye provides assets and libraries so a Digital Twin can be dragged and dropped into the 3D engine (Unreal, Unity, ect) of their choice where it will automatically place itself in the correct postion and begin emitting data to the other assets. 
