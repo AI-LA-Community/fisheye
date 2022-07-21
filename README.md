@@ -88,3 +88,7 @@ There are no tables.  But let's create the epa schema.
 All right! Now you should have some structure and you can either a) join the ETL team or b) go back to Python.
 
 You may have to run the script several times to load the database.  It runs out of memory, but if you run it again it will just work on the new tables.
+
+## Contact
+
+Brian on Discord **buddha_314#1897**
