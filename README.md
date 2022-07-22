@@ -1,8 +1,17 @@
 # The Fisheye Project
 
-Fisheye is the Climate Change MetaVerse.  Fisheye organizes data related to climate action and makes that data available as 3D, real-time assets.
+Fisheye is the Open Source Climate Change MetaVerse.  Fisheye organizes data related to climate action and makes that data available as 3D, real-time assets.  We believe popular engagement is the key to fighting climate change.  Fisheye brings everyone into the conversation by creating an immersive Digital Twin of Earth's climate.
+
+Fisheye has two primary work products.  First, a SQL-enabled database will ingest and normalize environmental data from a variety of sources including NOAA, the EPA and data rich NGOs.  Second, it will provide Virtual Twins for each data source and make the data immediately addressable with virtual environments such as Unity and Unreal.
+
+The core Fisheye platform will be publicly and freely available on networks such as Steam and Unreal Marketplace, with additional content packs for EPA Violations, Coastal Water Quality, Weather Forecasting, etc. “Game jam” style events will encourage independent game designers to use this data to create compelling, educational and influential content.
+
+Users and contributers are encouraged to build the platform locally or host for others to use.  Please consider contributing 
 
 Please read our [CONTRIBUTING](CONTRIBUTING.md) page and use your imagination a bit.
+
+In the spirit of engagement, we encourage community members to find and integrate various data sets.  The [DATA](DATA.md) page has suggestions and notes for ingesting data.
+
 
 ## Inspiration
 
@@ -11,6 +20,13 @@ Microsoft is putting a lot of energy into [IoT and the MetaVerse](https://www.yo
 [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning) is one of the most powerful AI techniques available today.  RL can create amazing and novel solutions to problems given the correct [training environment](https://www.vox.com/future-perfect/2019/9/20/20872672/ai-learn-play-hide-and-seek).  Again, by making climate data accessible to virtual environments we can use these advanced techniques to study climate change.
 
 So let's get on it!!
+
+### Videos and Tutorials
+
+We're building a complicated product and we'll all need to learn.  Here are some videos that have been useful.
+
+* Unreal and ArcGIS [Getting Started Tutorial](https://developers.arcgis.com/unreal-engine/get-started/)
+* Quixel MegaScans [Vegetation Tutorial](https://www.youtube.com/watch?v=yaZvyHaYkMU) is really beautiful.
 
 ## Basic Use Case
 
@@ -33,20 +49,6 @@ The [U.S. Environmental Protection Agency](https://www.epa.gov/) publishes data 
 1.	Manage the project via tickets and roadmaps
 1.	Design small games including the gameplay and narratives around available data assets
 1.	Devops, devops, devops
-
-
-## Data
-
-### EPA Echo Data
-Our initial use case is data from the EPA ECHO dataset. We'll start with these.
-
-* [FRS Facility Data](https://echo.epa.gov/tools/data-downloads/frs-download-summary)
-* [ECHO Demographic Data](https://echo.epa.gov/tools/data-downloads/demographic-download-summary)
-* [ECHO Air Quality Data](https://echo.epa.gov/tools/data-downloads/icis-air-download-summary)
-* [ECHO Air Emissions Summary](https://echo.epa.gov/tools/data-downloads/air-emissions-download-summary)
-
-Most of these are .zip files containing multile child files. We'll have to identify how to use Azure resources to unpack and load them, since the examples basically load from local .csv files.
-
 
 
 ## Local Dev
@@ -91,4 +93,4 @@ You may have to run the script several times to load the database.  It runs out 
 
 ## Contact
 
-Brian on Discord **buddha_314#1897**
+[Brian](https://github.com/buddha314) on Discord **buddha_314#1897**
