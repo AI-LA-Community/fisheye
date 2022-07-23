@@ -10,6 +10,7 @@ from sqlalchemy import create_engine
 
 def download_and_unzip(wget_filelist, dir):
     print("This grabs a LOT of data, so be patient.")
+    print("** These scripts fail on the larger tables.")
     with open(wget_filelist, 'r') as f:
         for line in f.readlines():
             print(line)
