@@ -37,3 +37,21 @@ INNER JOIN (
 GROUP BY
     p.pollutant_name
 ORDER BY 2 DESC;
+
+// See the trend in general reporting
+SELECT
+  reporting_year
+, pollutant_name
+, sum(annual_emission) as annual_emission
+, count(*) as n_reports
+FROM epa.poll_rpt_combined_emissions p
+GROUP BY p.reporting_year, pollutant_name
+ORDER BY 1, 2;
+
+// Who are the most diverse polluters?
+SELECT
+    registry_id
+,   count(distinct pollutant_name) AS n_pollutants
+FROM epa.poll_rpt_combined_emissions p
+GROUP BY 1
+ORDER BY 2 DESC;
