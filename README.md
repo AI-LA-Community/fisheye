@@ -1,7 +1,13 @@
 # The Fisheye Project
 
+
 Fisheye is the Open Source Climate Change MetaVerse.  Fisheye organizes data related to climate action and makes that data available as 3D, real-time assets.  We believe popular engagement is the key to fighting climate change.  Fisheye brings everyone into the conversation by creating an immersive Digital Twin of Earth's climate.
 
+Fighting climate change requires popular engagement.  To many, the threat is simply too abstract or too complicated to accept.  Climate impact is not "real" and feels foreign.  By making climate change data and assets readily available, we create active engagement, encourage curiousity and ultimately provide a vehicle to action.
+
+***If you can convince people to [shave](https://theoutline.com/post/7118/red-dead-redemption-2-is-a-game-about-a-cowboy-who-does-chores) in the MetaVerse, you can convince them to act on Climate Change.  We're just one good UI away.***
+
+## Work Products
 Fisheye has two primary work products.  First, a SQL-enabled database will ingest and normalize environmental data from a variety of sources including NOAA, the EPA and data rich NGOs.  Second, it will provide Virtual Twins for each data source and make the data immediately addressable with virtual environments such as Unity and Unreal.
 
 The core Fisheye platform will be publicly and freely available on networks such as Steam and Unreal Marketplace, with additional content packs for EPA Violations, Coastal Water Quality, Weather Forecasting, etc. “Game jam” style events will encourage independent game designers to use this data to create compelling, educational and influential content.
