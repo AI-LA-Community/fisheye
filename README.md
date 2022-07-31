@@ -28,6 +28,13 @@ We're building a complicated product and we'll all need to learn.  Here are some
 * Unreal and ArcGIS [Getting Started Tutorial](https://developers.arcgis.com/unreal-engine/get-started/)
 * Quixel MegaScans [Vegetation Tutorial](https://www.youtube.com/watch?v=yaZvyHaYkMU) is really beautiful.
 
+## Structure
+
+Such as it is. For the moment, we are dividing the data into major categories and those are under the corresponding directories.  We expect this to change as we grow.
+
+* [EPA](epa/README.md) Data on EPA violations and infractions, mostly concerning air pollutants and drinking water.
+* [National Weather Services](nws/README.md) The U.S. National Weather Service provides several data sources, including RSS feeds for osshore buoys.
+
 ## Basic Use Case
 
 The [U.S. Environmental Protection Agency](https://www.epa.gov/) publishes data on facilities that have violated U.S. policy or laws.  Geo-coordinates are typically provided so the violation can be analyzed in its correct geographical context.  Fisheye provides assets and libraries so a Digital Twin can be dragged and dropped into the 3D engine (Unreal, Unity, ect) of their choice where it will automatically place itself in the correct postion and begin emitting data to the other assets. 
