@@ -100,3 +100,4 @@ You may have to run the script several times to load the database.  It runs out 
 ## Contact
 
 [Brian](https://github.com/buddha314) on Discord **buddha_314#1897**
+Join the Discord Server: https://discord.gg/6EeWKCmx7s
