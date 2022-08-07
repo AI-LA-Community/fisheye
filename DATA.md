@@ -29,6 +29,7 @@ Some data we can link to directly and some we'll have to ingest to make it addre
 * [Data.gov Climate](https://data.gov/climate/) data
 * [Coastal Flooding Theme](https://data.gov/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/) on data.gov
 * [NASA Earth Data](https://www.earthdata.nasa.gov/) NASA is one of the best data providers around, so let's make sure we get their stuff. (Nods to Jean-Paul!)
+* [Real Time Air Quality Data](https://aqicn.org/api/)
 
 ## EPA Echo Data
 Our initial use case is data from the EPA ECHO dataset. We'll start with these.

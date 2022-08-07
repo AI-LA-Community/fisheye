@@ -34,6 +34,13 @@ We're building a complicated product and we'll all need to learn.  Here are some
 * Unreal and ArcGIS [Getting Started Tutorial](https://developers.arcgis.com/unreal-engine/get-started/)
 * Quixel MegaScans [Vegetation Tutorial](https://www.youtube.com/watch?v=yaZvyHaYkMU) is really beautiful.
 
+## Structure
+
+Such as it is. For the moment, we are dividing the data into major categories and those are under the corresponding directories.  We expect this to change as we grow.
+
+* [EPA](epa/README.md) Data on EPA violations and infractions, mostly concerning air pollutants and drinking water.
+* [National Weather Services](nws/README.md) The U.S. National Weather Service provides several data sources, including RSS feeds for osshore buoys.
+
 ## Basic Use Case
 
 The [U.S. Environmental Protection Agency](https://www.epa.gov/) publishes data on facilities that have violated U.S. policy or laws.  Geo-coordinates are typically provided so the violation can be analyzed in its correct geographical context.  Fisheye provides assets and libraries so a Digital Twin can be dragged and dropped into the 3D engine (Unreal, Unity, ect) of their choice where it will automatically place itself in the correct postion and begin emitting data to the other assets. 
@@ -96,6 +103,31 @@ There are no tables.  But let's create the epa schema.
 All right! Now you should have some structure and you can either a) join the ETL team or b) go back to Python.
 
 You may have to run the script several times to load the database.  It runs out of memory, but if you run it again it will just work on the new tables.
+
+# Working with ESRI GIS
+Get your API key from the [ArcGIS Dashboard](https://developers.arcgis.com/dashboard/).
+
+For me (Brian) this is where I have the most to learn.  I'm including notes on how the GIS components work.
+
+In the Unity and Unreal Tutorials for ArcGIS there are two distinct steps for map content.  The first is to add the [Base Layer](https://developers.arcgis.com/documentation/mapping-apis-and-services/maps/basemap-layers/) and the second is to start adding Data Layers.  These appear to be proprietary but free to ESRI.  The _Imagery_ type is for a real world visual of the earth and what we want.  They also provide and interesting [library of basemaps](https://livingatlas.arcgis.com/en/browse/#d=2&categories=Basemaps%3A00100) but I'm not yet sure how to use them.  Basemaps are either vector tiles or images.  It appears the vector tiles are like `.svg` files.  The image files are actual photos.
+
+It appears to me the ESRI basemaps will work fine, but we may seek out alternatives at some point.  I got stuck at the [data layer](https://developers.arcgis.com/esri-leaflet/layers/).  The tutorial only shows the [NY Metro](https://tiles.arcgis.com/tiles/nGt4QxSblgDfeJn9/arcgis/rest/services/UrbanObservatory_NYC_TransitFrequency/MapServer) area and I was unable to find alternatives.  Data layers also come as vectors or images. 
+
+## Initial Scene
+
+### Braid Theory / AltaSea
+When working the ESRI tutorials for Unity/Unreal you are directed to using NY City maps.  As practice, you can try pointing your scene to [Braid Theory in San Pedro, CA](https://www.google.com/maps/place/AltaSea+at+the+Port+of+Los+Angeles/@33.722451,-118.2788209,16.13z/data=!4m5!3m4!1s0x80dd37b77f64c337:0x2ad7d7fef3923d58!8m2!3d33.7222724!4d-118.2734459)
+
+Lat: 33.722451
+Lon: -118.2788209
+
+Set the map center to those values (note the plugin takes Lon first) and put a camera directly south.
+* Camera Lon: -118.278
+* Camera Lat: 33.69
+* Camera Heading: 0
+* Camera Pitch: 58
+* Camera Roll:
+
 
 ## Contact
 
