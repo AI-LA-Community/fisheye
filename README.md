@@ -1,5 +1,6 @@
 # The Fisheye Project
 
+**Join our [Discord](https://discord.gg/yzxnpTwq) on the `fisheye` channel!**
 
 Fisheye is the Open Source Climate Change MetaVerse.  Fisheye organizes data related to climate action and makes that data available as 3D, real-time assets.  We believe popular engagement is the key to fighting climate change.  Fisheye brings everyone into the conversation by creating an immersive Digital Twin of Earth's climate.
 
